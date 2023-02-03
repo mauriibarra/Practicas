@@ -1,9 +1,10 @@
 const slider = document.querySelector("#slider");
+document.querySelector("slider.js")
 let sliderSection = document.querySelectorAll("#slider--section");
 let sliderSectionLast = sliderSection[sliderSection.length -1];
 
-const btnLeft = querySelector("#btn-left");
-const btnRight = querySelector("#btn-right");
+const btnLeft = querySelector("#btn-right");
+const btnRight = querySelector("#btn-left");
 
 slider.insertAdjacentElement('afterbegin', sliderSectionLast);
 

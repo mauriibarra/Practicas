@@ -55,6 +55,7 @@ img {
 }
 .slider--section {
     width: 100%;
+    position: relative;
 }
 .slider--img {
     display: block;
@@ -84,4 +85,19 @@ img {
 }
 .slider--btn--left {
     left: 10px;
+}
+.slider--content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    transform: translateX(-50%) translateY(-50%);
+}
+.slider-section--btn {
+    display: block;
+    border: 1px solid #ff4e00;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
 }
